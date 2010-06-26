@@ -369,7 +369,7 @@ function thematic_header() {
 		// Create the blog title
 		// In the header div
 		function thematic_blogtitle() { ?>
-		    		<div id="blog-title"><span><a href="<?php bloginfo('url') ?>/" title="<?php bloginfo('name') ?>" rel="home"><?php bloginfo('name') ?></a></span></div>
+		    		<div id="blog-title"><a href="<?php bloginfo('url') ?>/" title="<?php bloginfo('name') ?>" rel="home"><span><?php bloginfo('name') ?></span></a></div>
 		<?php }
 		add_action('thematic_header','thematic_blogtitle',3);
 		

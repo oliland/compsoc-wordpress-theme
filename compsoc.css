@@ -19,7 +19,8 @@ body {
     width: 960px;
     margin: 0 auto;
 }
-#blog-title {
+#blog-title a:link, #blog-title a:hover, #blog-title a:visited {
+    display: block;
     background: url('compsoc.png') no-repeat;
     width: 233px;
     height: 41px;
