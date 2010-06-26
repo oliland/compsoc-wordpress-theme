@@ -1,0 +1,31 @@
+/*
+THEME NAME: COMPSOC
+THEME URI: http://compsoc.tarids.ed.ac.uk/
+DESCRIPTION: COMPSOC <3 Wordpress
+VERSION: 0.1
+AUTHOR: Oli "oliland" Kingshott
+AUTHOR URI: http://oliland.net/
+TAGS: white, two-columns, fixed-width, right-sidebar, threaded-comments, sticky-post, microformats
+.
+This work, like WordPress, is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+
+/* Reset browser defaults */
+@import url('library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('library/styles/typography.css');
+
+/* Apply basic image styles */
+@import url('library/styles/images.css');
+
+/* Prepare theme for plugins */
+@import url('library/styles/plugins.css');
+
+/* 20px */
+@import url('library/styles/20px.css');
+
+/* Apply COMPSOC theme */
+@import url('compsoc.css');
