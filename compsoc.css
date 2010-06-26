@@ -43,8 +43,12 @@ body {
     margin: 0;
     list-style: none;
 }
+#access ul > li {
+	display: inline-block;
+}
 #access ul a:link, #access ul a:visited {
-    color: #fff;
+	padding-right: 30px;
+	color: #fff;
     font-size: 18px;
     text-decoration: none;
     line-height: 40px;
@@ -62,11 +66,12 @@ body {
     width: 550px;
     margin-right: 20px;
 }
-.entry-title {
-    margin: 20px 0;
+.entry-title a {
+	text-decoration: none;
 }
 .entry-title {
     font-size: 36px;
+    margin: 20px 0;
     line-height: 40px;
     font-weight: thin;
     text-decoration: none;
